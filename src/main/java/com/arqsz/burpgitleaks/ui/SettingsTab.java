@@ -303,7 +303,7 @@ public class SettingsTab extends JPanel implements SettingsPanel {
         JPopupMenu popup = new JPopupMenu();
         addCopyMenuItem(popup, table, "Copy Source", 1);
         addCopyMenuItem(popup, table, "Copy Rule ID", 2);
-        addCopyMenuItem(popup, table, "Copy Description", 3);
+        addCopyMenuItem(popup, table, "Copy Description", 4);
 
         table.setComponentPopupMenu(popup);
 
