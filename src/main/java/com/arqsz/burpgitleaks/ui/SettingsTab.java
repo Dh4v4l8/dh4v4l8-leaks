@@ -418,7 +418,7 @@ public class SettingsTab extends JPanel implements SettingsPanel {
         c.gridy++;
         c.gridwidth = 2;
         JCheckBox issuesTabCb = new JCheckBox(
-                "[Experimental] Enable custom 'Issues' tab (Community Edition workaround)");
+                "[Experimental] Enable custom 'Issues' tab");
         issuesTabCb.setToolTipText("Displays a custom table of findings as a separate top-level tab.");
         issuesTabCb.setSelected(settings.isShowIssuesTab());
         issuesTabCb.addActionListener(e -> {
