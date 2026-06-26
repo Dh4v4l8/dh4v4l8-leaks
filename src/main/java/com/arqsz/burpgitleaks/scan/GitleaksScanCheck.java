@@ -262,8 +262,7 @@ public class GitleaksScanCheck implements PassiveScanCheck {
     private AuditIssue createAuditIssue(GitleaksRule rule, String secret, String fullMatch, Matcher matcher,
             HttpRequestResponse baseReq, int depth, List<Marker> contextMarkers) {
 
-        String redacted = applyRedaction(fullMatch, settings.getRedactionLevel());
-        String displayMatch = escapeHtml(redacted);
+        String displayMatch = escapeHtml(fullMatch);
 
         String description = rule.getDescription() + "<br><br><b>Match:</b><br><pre>" + displayMatch + "</pre>";
 

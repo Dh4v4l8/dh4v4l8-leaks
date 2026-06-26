@@ -24,7 +24,7 @@ import burp.api.montoya.scanner.scancheck.ScanCheckType;
 
 public class BurpExtender implements BurpExtension {
 
-    private final String EXTENSION_NAME = "Gitleaks Integration";
+    private final String EXTENSION_NAME = "dh4v4l8 leaks";
     private final String ISSUES_TAB_NAME = EXTENSION_NAME + " Issues";
 
     private MontoyaApi api;
@@ -157,7 +157,7 @@ public class BurpExtender implements BurpExtension {
                 Toast.error(suiteFrame, EXTENSION_NAME + "startup failed: Reverted to defaults");
             });
         } else {
-            api.logging().logToOutput(String.format("%s (by Arqsz) initialized successfully.", EXTENSION_NAME));
+            api.logging().logToOutput(String.format("%s (by dh4v4l8) initialized successfully.", EXTENSION_NAME));
             api.logging().logToOutput(String.format("Loaded %d active rules.", config.rules().size()));
         }
     }

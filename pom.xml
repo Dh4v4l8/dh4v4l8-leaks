@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.arqsz</groupId>
+    <groupId>com.dh4v4l8</groupId>
     <artifactId>burp-gitleaks-integration</artifactId>
     <version>0.7.1</version>
 
@@ -58,19 +58,19 @@
                     <relocations>
                         <relocation>
                             <pattern>org.tomlj</pattern>
-                            <shadedPattern>com.arqsz.burpgitleaks.shaded.org.tomlj</shadedPattern>
+                            <shadedPattern>com.dh4v4l8.burpgitleaks.shaded.org.tomlj</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.google.re2j</pattern>
-                            <shadedPattern>com.arqsz.burpgitleaks.shaded.com.google.re2j</shadedPattern>
+                            <shadedPattern>com.dh4v4l8.burpgitleaks.shaded.com.google.re2j</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>org.ahocorasick</pattern>
-                            <shadedPattern>com.arqsz.burpgitleaks.shaded.org.ahocorasick</shadedPattern>
+                            <shadedPattern>com.dh4v4l8.burpgitleaks.shaded.org.ahocorasick</shadedPattern>
                         </relocation>
                         <relocation>
                             <pattern>com.google.code.gson</pattern>
-                            <shadedPattern>com.arqsz.burpgitleaks.shaded.com.google.code.gson</shadedPattern>
+                            <shadedPattern>com.dh4v4l8.burpgitleaks.shaded.com.google.code.gson</shadedPattern>
                         </relocation>
                     </relocations>
                 </configuration>

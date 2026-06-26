@@ -71,7 +71,7 @@ public class IssuesTab extends JPanel {
             .newSingleThreadExecutor();
 
     private String tabTitle;
-    private static final String DEFAULT_TAB_TITLE = "Gitleaks Issues";
+    private static final String DEFAULT_TAB_TITLE = "dh4v4l8 leaks Issues";
 
     private static final DateTimeFormatter TIMESTAMP_FORMAT = DateTimeFormatter.ofPattern("HH:mm:ss dd MMM yyyy");
 
